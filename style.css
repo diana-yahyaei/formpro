@@ -1,0 +1,49 @@
+body{
+   margin: 0;
+   padding: 0;
+       justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+        display:flex ;}
+
+
+
+
+input {
+  
+    padding: 20px;
+    background-color: #76767c;
+    margin: 10px;
+  
+    
+}
+.panel{
+    display: flex;
+ margin-top:  100px;
+width:1200px;
+  
+}
+.left-panel {
+       flex: 1; 
+ display:flex;
+ 
+      gap: 10 px;
+
+ background-color: blue;
+}
+.right-panel {
+   flex: 1;
+    padding: 20px;
+
+ 
+    background-color: blueviolet;
+  
+   
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
