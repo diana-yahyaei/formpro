@@ -1,49 +1,52 @@
-body{
-   margin: 0;
-   padding: 0;
-       justify-content: center;
-    align-items: center;
-    background-color: darkblue;
-        display:flex ;}
-
-
-
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+  display: flex;
+}
 
 input {
-  
-    padding: 20px;
-    background-color: #76767c;
-    margin: 10px;
-  
-    
+  padding: 20px;
+  background-color: #76767c;
+  margin-top: 15px;
+  height: 10px;
 }
-.panel{
-    display: flex;
- margin-top:  100px;
-width:1200px;
-  
+#learning {
+  height: 50px;
+  width: 300px;
+}
+
+h3 {
+  margin-top: -10px;
+}
+.panel {
+  display: flex;
+  height: 80vh;
+  width: 70%;
+  margin: 5% 0 5% 0;
 }
 .left-panel {
-       flex: 1; 
- display:flex;
- 
-      gap: 10 px;
+  width: 50%;
 
- background-color: blue;
+  background-color: blue;
+  padding-left: 30px;
 }
 .right-panel {
-   flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 
- 
-    background-color: blueviolet;
-  
-   
+  background-color: blueviolet;
 }
-
+label {
+  display: grid;
+  margin-top: 20px;
+}
 form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
+  display: grid;
+
+  width: 300px;
+  grid-template-columns: 200px 200px;
+  gap: 5px;
 }
