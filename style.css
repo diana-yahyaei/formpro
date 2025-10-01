@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
+  font-family: fantasy;
   text-transform: capitalize;
   display: flex;
   color: white;
@@ -38,11 +37,18 @@ h3 {
   padding-left: 30px;
 }
 .right-panel {
-  flex: 1;
   padding: 20px;
-
-  background-color: blueviolet;
+  width: 50%;
+  background-color: #262b2b;
+  ruby-position: under;
 }
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  margin-bottom: 20px;
+}
+
 label {
   display: grid;
   margin-top: 20px;
@@ -58,6 +64,7 @@ form {
   margin-left: 30px;
   color: #161f23;
 }
+
 .register {
   align-content: center;
   margin-top: 20px;
@@ -68,4 +75,36 @@ form {
   background-color: beige;
   color: black;
   border-radius: 2px;
+}
+.Firstpic,
+.Secondpic,
+.Thirdpic,
+.Fourthpic {
+  display: grid;
+  grid-template-columns: 80px 10px;
+
+  margin-top: 20px;
+  position: relative;
+}
+h5 {
+  font-size: 25px;
+}
+.hostet {
+  margin-top: 50px;
+}
+.gustes {
+  margin-top: 10%;
+}
+ruby {
+  margin-left: -10px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  font-weight: 800;
+  ruby-align: start;
+}
+rt {
+  font-size: 15px;
+  font-style: italic;
 }
