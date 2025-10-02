@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: fantasy;
   text-transform: capitalize;
   display: flex;
@@ -22,13 +23,14 @@ input {
 
 h3 {
   margin-left: 30px;
-  margin-top: -10px;
+
   font-size: 30px;
 }
 .panel {
   display: flex;
   height: 100vh;
   width: 100%;
+  margin-top: -21px;
 }
 .left-panel {
   width: 50%;
@@ -51,23 +53,20 @@ img {
 
 label {
   display: grid;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 form {
-  display: grid;
   margin-left: 30px;
   width: 300px;
-  grid-template-columns: 200px 200px;
-  gap: 20px;
 }
 #check {
-  margin-left: 30px;
+  margin-top: 30px;
   color: #161f23;
 }
 
 .register {
   align-content: center;
-  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   width: 200px;
   height: 50px;
@@ -107,4 +106,58 @@ ruby {
 rt {
   font-size: 15px;
   font-style: italic;
+}
+@media screen and (width>=20rem) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161f23;
+  }
+
+  input {
+    margin-top: 10px;
+
+    width: 150px;
+  }
+  #message {
+    height: 30px;
+    width: 200px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .panel {
+    height: 100%;
+    width: 15em;
+    display: block;
+    margin-top: 10px;
+  }
+  .left-panel {
+    width: 21em;
+    height: 70%;
+
+    padding-left: 0;
+  }
+  .form {
+    margin-left: 0;
+  }
+  .right-panel {
+    padding: 16px;
+    width: 19em;
+    height: 60%;
+  }
+
+  #check {
+    width: 80px;
+  }
+
+  .register {
+    margin-top: 20px;
+
+    width: 200px;
+    height: 50px;
+  }
 }
